@@ -1,5 +1,4 @@
 import React from 'react'
-import "../styles/gifItem.css"
 
 
 
@@ -11,6 +10,11 @@ const Loading = ({ message }) => {
                 <div></div>
                 <div></div>
                 <div></div>
+                <h5 style={{margin: '4px'}}>
+
+                    {message}
+
+                </h5>
             </div>
         </div>
     )

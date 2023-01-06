@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba a <GrifItem/> debe hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="yatusabe"
+      src="https://giphy.com/gifs/TOEIAnimationUK-goku-dragon-ball-super-19JSJ5ucu91R5D7a3w"
+    />
+    <p>
+      Dragon Ball
+    </p>
+  </div>
+</div>
+`;
