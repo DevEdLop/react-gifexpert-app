@@ -6,7 +6,7 @@ const GifExpertApp = () => {
     const [categories, setCategories] = useState(['Dragon Ball'])
 
     const onAddCategories = (newCategory) => {
-        if (categories.find(item => item.toLowerCase() === newCategory.toLowerCase())) return alert('Ya existe esta wea');
+        if (categories.find(item => item.toLowerCase() === newCategory.toLowerCase())) return alert('Ya existe este Gif');
         setCategories([newCategory, ...categories])
 
     }
